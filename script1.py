@@ -19,7 +19,7 @@ from pymongo import MongoClient
 # Bot token and admin ID
 #BOT_TOKEN = "7660007316:AAHis4NuPllVzH-7zsYhXGfgokiBxm_Tml0"
 ADMIN_ID = 6773787379
-CHANNEL_ID = -1002479661811  # Replace with your channel ID
+CHANNEL_ID = -1002326075870  # Replace with your channel ID
 
 # Required channels and invite links
 REQUIRED_CHANNELS = [-1002351606649, -1002389931784]
