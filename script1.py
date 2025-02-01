@@ -31,7 +31,7 @@ INVITE_LINKS = {
 # MongoDB connection
 MONGO_URI = "mongodb+srv://kunalrepowala1:ILPVxpADb0FK7Raa@cluster0.evumw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DB_NAME = "Cluster0"
-COLLECTION_NAME = "message_store"
+COLLECTION_NAME = "message_store1"
 
 # Initialize MongoDB client
 client = MongoClient(MONGO_URI)
@@ -166,8 +166,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
                         full_url = f"{CURRENT_WEBSITE_URL}{path}"
                         inline_keyboard = InlineKeyboardMarkup(
                             [
-                                [InlineKeyboardButton("Open Mini App", web_app={"url": full_url})],
-                                [InlineKeyboardButton("Open Inline Link", url=full_url)],
+                                [InlineKeyboardButton("Play ⏯️", web_app={"url": full_url})],
+                                [InlineKeyboardButton("Link 🔗", url=full_url)],
                             ]
                         )
 
