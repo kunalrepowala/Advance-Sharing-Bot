@@ -31,7 +31,7 @@ INVITE_LINKS = {
 # MongoDB connection
 MONGO_URI = "mongodb+srv://kunalrepowala1:ILPVxpADb0FK7Raa@cluster0.evumw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DB_NAME = "Cluster0"
-COLLECTION_NAME = "message_store"
+COLLECTION_NAME = "message_store1"
 
 # Initialize MongoDB client
 client = MongoClient(MONGO_URI)
