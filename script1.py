@@ -19,7 +19,7 @@ from pymongo import MongoClient
 # Bot token and admin ID
 #BOT_TOKEN = "7660007316:AAHis4NuPllVzH-7zsYhXGfgokiBxm_Tml0"
 ADMIN_ID = 6773787379
-CHANNEL_ID = -1002326075870 # Replace with your channel ID
+CHANNEL_ID = -1002479661811  # Replace with your channel ID
 
 # Required channels and invite links
 REQUIRED_CHANNELS = [-1002351606649, -1002389931784]
@@ -31,7 +31,7 @@ INVITE_LINKS = {
 # MongoDB connection
 MONGO_URI = "mongodb+srv://kunalrepowala1:ILPVxpADb0FK7Raa@cluster0.evumw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DB_NAME = "Cluster0"
-COLLECTION_NAME = "message_store1"
+COLLECTION_NAME = "message_store"
 
 # Initialize MongoDB client
 client = MongoClient(MONGO_URI)
