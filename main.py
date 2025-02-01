@@ -1,6 +1,7 @@
 import logging
 import asyncio
 import os  # Import the os module to access environment variables
+import nest_asyncio  # Import nest_asyncio to allow nested event loops
 from telegram import Update
 from telegram.ext import (
     ApplicationBuilder,
@@ -31,6 +32,9 @@ from web_server import start_web_server  # Import the web server function
 # Set up logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
+# Apply nest_asyncio to allow nested event loops
+nest_asyncio.apply()
 
 async def run_bot() -> None:
     # Get the bot token from the environment variable
